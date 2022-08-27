@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    width: 100%;
+    background: #008080;
+    height: 70px;
+}
+.ancho {
+    width: 80%;
+    height: 70px;
+    
+    margin: auto;
+}
+.logo {
+    width: 30%;
+    height: 70px;
+    
+    padding-top: 10px;
+    float: left;
+    box-sizing: border-box;
+}
+nav {
+    width: 70%;
+    height: 70px;
+    
+    float: left;
+    text-align: right;
+    padding-top: 24px;
+    box-sizing: border-box;
+}
+.logo p a {
+    color: #fff;
+    font-size: 40px;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li {
+    display: inline;
+}
+nav ul li a {
+    color: #fff;
+    font-size: 13px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+nav ul li a:hover {
+    color: #444;
+}
+img {
+    width: 300px;
+    height: 300px;
+    text-decoration: none;
+    margin: 10;
+    padding: auto;
+}
+form {
+    margin: 0 auto;
+    padding: 20px;
+    width: 300px;
+    background-color: rgb(42, 165, 165);
+    color:black;
+    border-radius: 3px;
+
+}
+form p{
+    text-align: center;
+}
+input {
+    border: 0;
+    width: 280px;
+}
+.field {
+    border: solid 1px #ccc;
+    padding: 10px;
+    width: 280px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.field:focus{
+    border-color: #18a383;
+    text-decoration: none;
+}
+.center-content{
+    text-align: center;
+}
+.btn {
+    border-radius: 10px;
+    display: inline-block;
+    padding: 20px 15px;
+    text-decoration: none;
+    color: #000;
+    background-color: rgb(224, 165, 75);            
+}
+
+/*Tarjeta de Imagenes*/
+.computer{
+    margin: auto;
+    padding: 6px;
+    background-color: aquamarine;
+    float: left;
+    text-align: center;
+    
+    border-radius: 10px;
+    overflow: hidden;   
+    left: 50%;
+    top: 50%; 
+    transform: translate (-50%, -50%);
+}
+.apple{
+    margin: auto;
+    padding: 6px;
+    background-color: rgb(214, 141, 45);    
+    float: left;
+    text-align: center;    
+    border-radius: 10px;
+    overflow: hidden;    
+    left: 50%;
+    top: 50%; 
+    transform: translate (-50%, -50%);
+}
+.laptop{
+    margin: auto;
+    padding: 6px;
+    background-color: rgb(70, 211, 133);    
+    float: left;    
+    text-align: center;    
+    border-radius: 10px;
+    overflow: hidden;    
+    left: 50%;
+    top: 50%; 
+    transform: translate (-50%, -50%);
+}
+.laptop1{
+    margin: auto;
+    padding: 6px;
+    background-color: rgb(212, 66, 218);    
+    float: left;    
+    text-align: center;    
+    border-radius: 10px;
+    overflow: hidden;    
+    left: 50%;
+    top: 50%; 
+    transform: translate (-50%, -50%);
+}
+
+/*Margen de las imagenes*/
+.computer{
+    margin: 10px;
+}
+.apple{
+    margin: 10px;
+}
+.laptop{
+    margin: 10px;
+}
+.laptop1{
+    margin: 10px;
+}
+.buttones{
+    border-radius: 10px;
+    color: #000;    
+}
+
+/*car js*/
+.container{
+    margin: 20px;
+    padding: 6px;   
+    align-items: center;
+    background-color: rgb(224, 159, 97);    
+    float: left;    
+    text-align: center;    
+    border-radius: 10px;
+    overflow: hidden;    
+    left: 50%;
+    top: 50%; 
+    transform: translate (-50%, -50%);
+}
+#listProducts{
+    display: flex;
+    justify-content: center;
+    
+}

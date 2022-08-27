@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <title>Nuevo Producto</title>
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+  <header>
+    <div class="ancho">
+        <div class="logo">
+        <p><a href="index.html">Store</a></p>
+        </div>
+        <nav>
+            <ul>
+
+            <li><a href="index.html">Productos</a></li>
+            <li><a href="index.html">Nuevos Productos</a></li>
+            <li><a href="#">Login</a></li>
+            <li><a href="car.html"><i style="font-size:24px" class="fa">&#xf218;</i></a></li>
+                
+            </ul>     
+        </nav>
+    </div>
+</header>
+<br>
+<form action="" method="post" id="formulario">
+  <p>NUEVO PRODUCTO</p> <br>
+  <p>NOMBRE</p>            
+  <input type="text" class="field" id="nombre"> <br>
+  <br>
+
+  <p>PRECIO</p>      
+  <input type="number" class="field" id="precio"> <br>
+  <br>
+
+  <p>INVENTARIO</p>      
+  <input type="number" class="field" id="inventario"> <br>      
+  <br>
+
+  <p class="center-content">
+  <input type="submit" class="btn" id="btn" value="Crear Producto">
+  </p>  
+  <p class="error" id="error"></p>
+  <br>
+
+</form>
+
+</body>
+<script src="js/script.js"></script>
+</html>
